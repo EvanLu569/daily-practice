@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "weatherpredictor"
+version = "0.1.0"
+description = "简易天气预测模拟器"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"  # 覆盖率报告
+
+[tool.poetry.dev-dependencies]
+pytest-html = "^4.0.0"  # HTML覆盖率报告
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
