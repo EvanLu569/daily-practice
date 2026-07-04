@@ -8,7 +8,8 @@ if ip=="":
     url="http://ip-api.com/json/"
 else:
     url=" http://ip-api.com/json/"+ip
-#   # 3. 打印出城市、国家、运营商
+#   # 3. 打印出城市、国家运营商
+
 #   # 4. 用 try/except 处理异常
 try:
     response=requests.get(url,timeout=10)
