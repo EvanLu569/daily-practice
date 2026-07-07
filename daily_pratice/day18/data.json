@@ -1,0 +1,12 @@
+{
+  "name": "zhangsan",
+  "age": 22,
+  "skills": [
+    "python",
+    "SQL"
+  ],
+  "address": {
+    "city": "beijing",
+    "district": "haiding"
+  }
+}
